@@ -12,3 +12,5 @@ def load_hdf5_data():
         label = label[::2,:,:,:]        
     return data,label
 ###########################################################################
+
+onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f))]
