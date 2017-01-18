@@ -10,3 +10,6 @@ list.append(10)
 for element in list:
   print(list[element])
 
+  
+  len(list)
+  
