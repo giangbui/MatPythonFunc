@@ -7,3 +7,6 @@ dict = dict(zip(list,xrange(3)))
 reversed_list = reversed(list)
 list.append(10)
 
+for element in list:
+  print(list[element])
+
